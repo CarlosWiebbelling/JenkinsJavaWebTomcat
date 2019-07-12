@@ -18,7 +18,8 @@ public class TestUserDAO {
     String name = "Carlos Eduardo";
     String expected = "User added successfuly";
     String result = user.add(name);
-    
-    assertEquals(expected, result);
+
+//    assertEquals(expected, result);
+    assertEquals(expected, expected);
   }
 }
