@@ -1,1 +1,1 @@
-Hello, World! This file has been updated (again) a few seconds ago
+Translatify is project for college finalization. Here we will do automated test routines in the Jenkins environment

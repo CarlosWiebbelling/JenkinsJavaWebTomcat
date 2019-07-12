@@ -1,4 +1,4 @@
-package com.example;
+package com.translatify;
 
 import org.junit.Before;
 import org.junit.Test;
