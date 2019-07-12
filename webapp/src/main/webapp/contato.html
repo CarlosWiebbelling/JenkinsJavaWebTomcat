@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <title>Contato | Airsoft Mania</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/conteudo.css">
+    <link rel="icon" href="img/icone.png" type="image/x-icon">
+    <script src="js/formulario.js"></script>
+  </head>
+  <body>
+    <header class="cabecalho">
+      <h1><a href="index.html">Airsoft Mania</a></h1>
+      <nav>
+        <ul>
+          <a href="index.html"><li>Home</li></a>
+          <a href="sobre.html"><li>Sobre</li></a>
+          <a href="glossario.html"><li>Glossário</li></a>
+          <a href="equipamentos.html"><li>Equipamentos</li></a>
+          <a href="contato.html"><li>Contato</li></a>
+        </ul>
+      </nav>
+    </header>
+    <div class="interface">
+      <section class="principal">
+        <article class="conteudo cores-interface">
+          <h2>Contato</h2>
+          <fieldset class="formulario">
+            <form>
+              <label for="nome" class="formulario-label">Nome:*</label><br>
+              <input type="text" name="nome" value="" id="nome" class="formulario-campo"><span class="formulario-alerta" id="erro-nome"> O nome é obrigatório.</span><br>
+              <label for="email" class="formulario-label">Email:*</label><br>
+              <input type="text" name="email" value="" id="email" class="formulario-campo"><span class="formulario-alerta" id="erro-email"> O email é obrigatório.</span><br>
+              <label for="telefone" class="formulario-label">Telefone:</label><br>
+              <input type="text" name="telefone" value="" id="telefone" class="formulario-campo"><span class="formulario-alerta" id="erro-telefone"> O telefone precisa ser numérico.</span><br>
+              <label for="assunto" class="formulario-label">Assunto:</label><br>
+              <select class="formulario-campo" name="assunto" id="assunto">
+                <option value="recrutamento">Recrutamento</option>
+                <option value="divulgação">Divulgação</option>
+                <option value="sugestao/critica">Sugestão/Crítica</option>
+                <option value="duvida">Dúvida</option>
+                <option value="outro">Outro</option>
+              </select><br>
+              <label for="mensagem" class="formulario-label">Mensagem:*</label> <span class="formulario-alerta" id="erro-mensagem"> Você precisa digitar uma mensagem.</span><br>
+              <textarea name="mensagem" rows="8" cols="55" id="mensagem" class="formulario-campo" style="resize:vertical;"></textarea><br>
+              <input type="button" name="" value="Enviar" class="formulario-botao" onclick="contactar()">
+          </form>
+          </fieldset>
+        </article>
+      </section>
+      <aside class="lateral">
+        <div class="box-lateral cores-interface">
+          <h3>SOBRE NÓS</h3><div class="box-conteudo">
+            <p align="justify">A <strong>Airsoft Mania</strong> nasceu do ideal de um grupo de companheiros praticantes de Airsoft. O site reúne uma série de artigos e notícias sobre os assuntos pertinentes do mundo do Airsoft. Nosso lema é: ganhar nota máxima no projeto para podermos passar de semestre com tranquilidade e o mais de boas possível.</p>
+          </div>
+        </div>
+        <div class="box-lateral cores-interface">
+          <h3>VEJA TAMBÉM</h3>
+          <h4>Nossas redes sociais</h4>
+          <div class="lateral-social">
+            <a href="http://www.facebook.com.br/" target="_blank"><img src="img/facebook_icone.png" alt="Facebook" width="18%"></a>
+            <a href="http://www.twitter.com.br/" target="_blank"><img src="img/twitter_icone.png" alt="Twitter" width="18%"></a>
+            <a href="http://www.youtube.com.br/" target="_blank"><img src="img/youtube_icone.png" alt="Youtube" width="18%"></a>
+          </div>
+        </div>
+      </aside>
+    </div>
+    <div class="padding-altura"></div>
+    <footer class="rodape">
+      <p>© 1867-2017 - Airsoft Mania | Nenhum direito reservado</p>
+      <p>É permitida a reprodução total ou parcial de qualquer conteúdo deste site.</p>
+    </footer>
+  </body>
+</html>
