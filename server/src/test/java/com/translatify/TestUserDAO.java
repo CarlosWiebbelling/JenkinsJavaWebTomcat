@@ -11,6 +11,7 @@ public class TestUserDAO {
 
   @Before
   public void setup() {
+	  user = new UserDAO();
   }
 
   @Test
