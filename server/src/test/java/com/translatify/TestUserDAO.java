@@ -27,10 +27,9 @@ public class TestUserDAO {
   public void testUserAddDuplicate() {
     String name = "Carlos Eduardo";
     String expected = "User already exists";
-    user.add(name);
     String result = user.add(name);
-    String result = user.add(name);
-    String result = user.add(name);
+    result = user.add(name);
+    result = user.add(name);
     
     assertEquals(expected, result);
   }
