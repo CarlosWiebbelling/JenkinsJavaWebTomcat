@@ -20,7 +20,24 @@ public class TestUserDAO {
     String expected = "User added successfuly";
     String result = user.add(name);
 
-//    assertEquals(expected, result);
-    assertEquals(expected, expected);
+    assertEquals(expected, result);
+  }
+  
+  @Test
+  public void testUserAddDuplicate() {
+    String name = "Carlos Eduardo";
+    String expected = "User already exists";
+    String result = user.add(name);
+
+    assertEquals(expected, result);
+  }
+  
+  @Test
+  public void testUserAddNull() {
+    String name = "";
+    String expected = "Name cannot be null";
+    String result = user.add(name);
+
+    assertEquals(expected, result);
   }
 }
