@@ -1,0 +1,115 @@
+.conteudo {
+  padding: 0.5% 2% 3% 2%;
+  margin: 0 1% 1% 1%;
+  overflow: hidden;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.cite {
+  font-weight: 600;
+  background-color: #B19E90;
+  padding: 1%;
+}
+
+.padding-altura {
+  margin-top: 8.6%; /*height: 141px*/
+}
+
+.imagem-autor {
+  border-radius: 100%; /*200px*/
+  width: 85%; /*210px*/
+  margin-left: 7.5%; /*32px*/
+}
+
+.conteudo h2 {
+  font-size: 36px;
+  color: #262626;
+}
+
+.conteudo h3 {
+  font-size: 28px;
+  color: #262626;
+  margin: 20px 0;
+}
+
+.conteudo h4 {
+  font-size: 18px;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+.indice-sobre {
+  margin-left: 2%;
+  font-size: 48px !important;
+}
+
+.conteudo p {
+  margin: 5px 0;
+}
+
+.figura-conteudo {
+    background-color: #B19E90;
+    border: 1px solid #917E70;
+    text-align: center;
+    padding: 15px;
+    margin: 30px;
+}
+
+.figura-conteudo img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    padding: 0;
+    margin: 0;
+}
+
+.figura-conteudo figcaption {
+    font-style: italic;
+    margin-top: 5px;
+}
+
+.formulario {
+  width: 85%;
+  background-color: #B19E90;
+  border: 1px solid #363636;
+  border-right: 80px solid #363636;
+}
+
+.formulario-label {
+  font-weight: 800;
+  font-size: 22px;
+}
+
+.formulario-campo {
+  border: 1px solid #363636;
+  border-radius: 2px;
+  background-color: #E5E5E5;
+  font-size: 18px;
+}
+
+.formulario-botao {
+  font-size: 22px;
+  border: none;
+  background-color: #363636;
+  color: #E5E5E5;
+  margin-top: 12px;
+  padding: 5px 10px;
+}
+
+.formulario-botao:hover {
+  background-color: #E5E5E5;
+  color: #363636;
+  cursor: pointer;
+}
+
+.formulario-alerta {
+  color: #DF0000;
+  display: none;
+}
