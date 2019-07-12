@@ -29,7 +29,6 @@ public class TestUserDAO {
     String expected = "User already exists";
     String result = user.add(name);
     result = user.add(name);
-    result = user.add(name);
     
     assertEquals(expected, result);
   }
@@ -42,4 +41,35 @@ public class TestUserDAO {
 
     assertEquals(expected, result);
   }
+  
+  @Test
+  public void testUserRemove() {
+    String name = "Carlos Eduardo";
+	String add = user.add(name);
+	
+    String expected = "User removed successfuly";
+    String result = user.remove(name);
+
+    assertEquals(expected, result);
+  }
+  
+  @Test
+  public void testUserRemoveNull() {
+    String name = "";	
+    String expected = "Name cannot be null";
+    String result = user.remove(name);
+
+    assertEquals(expected, result);
+  }
+  
+  @Test
+  public void testUserRemoveUserNotExists() {
+    String name = "Gabriel Max";	
+    String expected = "User don't exists";
+    String result = user.remove(name);
+
+    assertEquals(expected, result);
+  }
+  
+  
 }
